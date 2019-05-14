@@ -24,7 +24,7 @@
  * 
  * To set next alert date from serial monitor command line:
  * ddmmyyyyhhmm[1|0]n [ENTER](day month year hour minute [restavfall, mat|alle spann] n = instruct prog to set and save next alert time
- * Eks: 2005201918001 = Set next alert to 20.05.19 18:00 (Last digit 1 = Rastavfall + mat - If set to 0 -> Rastavfall, mat, papp, plast)
+ * Eks: 2005201918001 = Set next alert to 20.05.19 18:00 (Last digit 1 = Restavfall + mat - If set to 0 -> Rastavfall, mat, papp, plast)
  * 
  */
 #include <Wire.h>
